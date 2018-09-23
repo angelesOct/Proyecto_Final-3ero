@@ -1,0 +1,24 @@
+*{
+    color: dimgray;
+}
+.antecedentes{
+    background:transparent;
+    width: 70%;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+}
+.Ntitulo{
+     text-align: center;
+}
+.etica{
+    width: 70%;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+}
+#cc{
+     font-weight: bold;
+     font-size: 18px;
+     font-family: arial;
+}

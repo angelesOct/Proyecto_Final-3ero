@@ -1,0 +1,247 @@
+/* -----ESTILOS DEL HEADER -------*/
+*{
+    margin: 0; /* establece todo al margen*/
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient( 130deg, #08fd524d  10%, #3281b669 70%);
+    border-radius: 0 0 85% 85% / 30%; /* da el renondeo al header*/
+}
+header:hover{
+    background-image: linear-gradient( 130deg, #08fd9f69  10%, #3260b669 70%);  /* cambiara de color el header*/
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+.content-menu{
+    width: 90%;
+    max-width: 1000px; /* alinar los elementos del menu */ 
+    margin: auto;
+}
+.content-menu img{ /* css del logo el logo */ 
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-top: -10px;  
+}
+.content-menu h2{ /* desaparece el titulo h2 (FAZUCA) */
+    display: none;
+}
+#check{
+    display: none;
+}
+.menu{  /* establecemos al meno en una posicion */
+    width: 100%;
+    margin-top: 16px;
+}
+.menu ul{
+    display: -webkit-box;
+    display: -ms-flexbox; /* el menu se establece en el centro*/
+    display: flex;
+    -webkit-box-pack: center;;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{ /* animacion del menu*/
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.menu ul li a:hover{
+    background: rgba(7, 181, 235, 0.308);
+    -webkit-box-shadow: 0px 5px 0px 0px blue;
+    box-shadow: 0px 5px 0px 0px blue;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+.header2{
+    position: fixed;
+    top: -100px;
+    background-image: linear-gradient( 130deg, #08fd9f69  10%, #3260b669 70%); 
+}
+.icon-menu{/*desaparec el icono de menu */
+    display: none;
+}
+
+
+			
+    ul, ol {
+        list-style:none;
+    }
+
+    .nav > li {
+        margin-top: -12%;
+        float:left;
+    }
+
+    .nav li a {
+        background:rgba(135, 207, 235, 0.363);
+        color:gray;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+    }
+
+
+    .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+
+    .nav li:hover > ul {
+        display:block;
+    }
+
+    .nav li ul li {
+        position:relative;
+    }
+
+    .nav li ul li ul {
+        right:-140px;
+        top:0px;
+    }
+
+
+
+/*-------FIN DE ESTILOS DE HEADER------*/
+
+/* ------Cuerpo del index ------- */
+
+main{ /** cuerpo de el index */
+    width: 96%;
+    max-width: 96%;
+    margin: auto;
+    background:white;
+    padding: 10px;
+    box-shadow: 0px 0px 20px -5px black;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTABLECEMOS UNA MEDIA QUERY */ 
+@media screen and (max-width: 768px) /* los pixeles otorgados a la pantalla */ 
+{
+    header{
+        position: fixed; /* tamaño del header se extablece que se mantendra fijo*/
+        top: 0;
+        height: 90px;
+    }
+    .content-menu img{
+        display: none; /* desaparecer el menu */
+    }
+    
+    .icon-menu{
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 10px;
+        padding: 5px;
+        font-size: 34px;
+        -webkit-transition: all 300ms; /* abre el menu*/
+        transition: all 300ms;
+    }
+    .icon-menu:hover{
+        background: rgba(0,0,0,0.3);
+        color: white;
+        border-radius: 5px;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+        cursor: pointer;
+    }
+    .content-menu h2{
+        display: block;
+        position: absolute;
+        top: 20px;
+        font-family:arial;
+        color: gray;
+        font-weight: bold;
+    }
+    .menu{ 
+        width: 400px;
+        position: absolute;
+        background:rgba(83, 81, 81, 0.336);
+        height: 100vh;
+        left: -120%;
+        top: 30px;
+        -webkit-transition: all 100ms; /*movimiento que tendra el menu */
+        transition: all 100ms;
+        
+    }
+    
+    .menu ul{
+        -webkit-box-orient: vertical; /*direccion del menu*/
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .menu ul li{
+        padding: 5px;
+    }
+    .menu ul li a{
+        color: white; /*color del menu */
+        display: block;        
+    }
+
+
+    .nav > li {
+        margin-top: 0%;
+        float:left;
+    }
+    .nav li a {
+        background:transparent;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+    }
+
+
+    
+    #check:checked ~ .menu{
+       left: 0px; 
+        -webkit-transition: all 300ms; 
+        transition: all 300ms;
+    }
+    
+    
+    /**** cuerpo responsivo ***/
+    
+     main{
+        margin-top: 100px;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+

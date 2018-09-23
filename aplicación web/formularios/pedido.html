@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lang="cs">
+<head>
+    <title>Formulario para pedidos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form action="registro_pedido.php" method="POST">
+        <h2>Registra tu pedido</h2><hr>
+        <input type="text" name="RFC" placeholder="RFC">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" placeholder="Apellido Paterno">
+        <input type="text" name="apellido_m" placeholder="Apellido Materno">
+         <input type="text" name="telefono" placeholder="Telefono">
+         <input type="text" name="correo" placeholder="Correo">
+        <input type="text" name="municipio" placeholder="Municipio">
+        <input type="text" name="calle" placeholder="Calle">
+        <input type="text" name="colonia" placeholder="Colonia">
+           <h2>Detalles del pedido </h2>
+        <fieldset>
+              <div id="cuerpoB">
+                    <h4>Productos </h4> 
+                    <hr>
+                    <p>
+                    
+                        <select name="productos">
+                        <option>Lapiz mirado</option>
+                        <option>Libreta Profesional</option>
+                        <option>Juego Geometrico</option>
+                        <option>Goma Factis</option>
+                        <option>Corrector de lapiz</option>
+                        <option>Papel Bon</option>
+                        <option>Papel china</option>
+                        <option>Crepe</option>
+                        <option>Cascaron</option>
+                        <option>Papel America </option>
+                        </select> 
+                    </p>
+                </div>
+             <input type="text" name="cantidad" placeholder="Cantidad">
+        </fieldset><hr>
+        <input type="submit" id="boton" value="Enviar">
+        <input type="reset" id="boton" value="Borrar " />
+    </form>
+        <form action="sesion.php" method="POST">
+            <a href="cerrar-sesion.html"><input type="submit" id="boton" value="Cerrar Sesión"/></a>
+        </form>
+</body>
+</html>
+

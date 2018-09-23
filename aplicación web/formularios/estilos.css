@@ -1,0 +1,78 @@
+body{
+    background-image:url(a3.jpg);
+    background-size:100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+form{
+    position:relative;
+    width: 450px;
+    margin-left:35%;
+    background:rgba(0,0,0,0.4);
+    padding: 8px 10px;
+    box-sizing: border-box;
+    margin-top:3x;
+    border-radius:7px;
+}
+
+    #cuerpoB{
+        height:190px;
+        width:75%;
+        margin-top:1%; 
+        float: left;
+    }
+    #cuerpoB p{
+        font-size:20px;
+        font-family:Garamond;
+        font-weight: bold;
+        margin-left:2%;
+    }
+    #cuerpoB select{
+        height:6%;
+        width:95%;  
+        font-size:20px;
+        font-family:Garamond;
+        7 }
+   #cuerpoB h4{
+        font-size:20px;
+        font-family:Garamond;
+        font-weight: bold;
+        margin-left:2%;
+        color:#fff;
+
+    }
+
+h2{
+    color:#fff;
+    text-align:center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;   
+}
+input,textarea{
+    width: 90%;
+    margin-left:4.5%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing:17px;
+    font-size:17px;
+    border:none;   
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background:#31384A ;
+    color:#fff;
+    padding: 10px;
+}
+#boton:hover{
+    cursor: pointer;
+}
+@media(max-width:480px){
+    form{
+        width:100% ;
+    }
+}

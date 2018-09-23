@@ -1,0 +1,249 @@
+body, html{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-left:1%; 
+    margin-top: 10px;
+}
+#titulo{
+    background:white;
+    height: 20%;
+    width: 35%; 
+    margin-left: 30%;
+}
+
+.card--1 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/36r$98.00.jpg);
+}
+
+.card--2 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/abaco$120%20paq%20con%205.jpg);
+}
+
+.card--3 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/acuacolor$108%20caja%20con%2012.jpg);
+}
+
+.card--4 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/acuarelas$11.jpg);
+}
+
+.card--5 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/barrilito$55.jpg);
+}
+
+.card--6 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/bully$60.jpg);
+}
+.card--7 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/contec$196.jpg);
+}
+.card--8 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/corector%20de%20lapiz$180.jpg);
+}
+.card--9 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/corrector$82.jpg);
+}
+.card--10 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/crayones%20vividel$10%20c%20una.jpg);
+}
+.card--11 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/delta$35.jpg);
+}
+.card--12 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/dixon$165.00.jpg);
+}
+.card--13 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/duo$42.jpg);
+}
+.card--14 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/ecologica$25.jpg);
+}
+.card--15 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/factis$110.jpg);
+}
+.card--16 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/fino$35.jpg);
+}
+.card--17 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/gis%20blanco$6.jpg);
+}
+.card--18 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/gis%20colores$7.50.jpg);
+}
+.card--19 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/kilometrico%20colores$26%20paq%20con%208.jpg);
+}
+.card--20 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/kilometrico$28.jpg);
+}
+.card--21 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/libreta%20profesional$485.png);
+}
+.card--22 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/m4$60.jpg);
+}
+.card--23 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/m40$75.jpg);
+}
+.card--24 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/magistral$180.jpg);
+}
+.card--25 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/mapitalargos%20c12%20$85%20paq%20con%205%20cortos%20$85%20paq%20con%2010.jpg);
+}
+.card--26 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/mapped$190.jpg);
+}
+.card--27 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/marcatextos$6%20pza.jpg);
+}
+.card--28 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/mediano$30.jpg);
+}
+
+.card--29 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/metrico$120.jpg);
+}
+.card--30 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/minioms$28.jpg);
+}
+.card--31 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/mirado$192.jpg);
+}
+.card--32 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/norma$125.jpg);
+}
+.card--33 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/norma12$68.jpg);
+}
+.card--34 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/pelikan$80.jpg);
+}
+.card--35 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/pritt$110.jpg);
+}
+.card--36 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/refla%20flexible$13%20pza.jpg);
+}
+.card--37 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/sabonis$75.jpg);
+}
+.card--38 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/sacapuntas$220%20con%2072%20pzas.jpg);
+}
+.card--39 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/tijeras$7%20cuna.jpg);
+}
+.card--40 .card__img--hover{
+    background-image: url(../catalogo/articulos_escolares/vividel$35.jpg);
+}
+.card__img{
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card__info-hover{
+    position: absolute;
+    padding: 16px;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.card__img--hover{
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+}
+
+
+.card{
+    margin-right: 25px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 33.3%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1); 
+    transform: scale(1.10, 1.10);
+}
+
+.card__info{
+    z-index: 1s;
+    height: 33%;
+    background-color: lightskyblue;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+.card__category{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: dimgray;
+}
+
+.card__title{
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+
+.card__by{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.card__author{
+    font-weight: 600;
+    text-decoration: none;
+    color: #ad7d52;
+}
+
+
+.card:hover .card__img--hover{
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info{
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover{
+    opacity: 2;
+}

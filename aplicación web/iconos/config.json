@@ -1,0 +1,88 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "w3nzesrlbezu6f30q7ytyq919p6gdlb6",
+      "css": "home",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "30b79160618d99ce798e4bd11cafe3fe",
+      "css": "food",
+      "code": 61685,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ba9ae3250633c7b1fe249587358c8383",
+      "css": "contacts",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "7e4164950ffa4990961958b2d6318658",
+      "css": "info",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "559647a6f430b3aeadbecd67194451dd",
+      "css": "menu",
+      "code": 61641,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
+      "css": "facebook",
+      "code": 62221,
+      "src": "entypo"
+    },
+    {
+      "uid": "0419da6446cb4f31093e2022793571ca",
+      "css": "twitter",
+      "code": 62218,
+      "src": "entypo"
+    },
+    {
+      "uid": "0a16125788558bcc5d70ae3f10effce5",
+      "css": "instagram",
+      "code": 61534,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "2342c9255e31850fcf5f89799cb8420f",
+      "css": "google-plus",
+      "code": 62131,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f04a5d24e9e659145b966739c4fde82a",
+      "css": "blog",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5ccf1ed249fd9d723ec1ce8629a9f507",
+      "css": "service",
+      "code": 61682,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2f9f67ee4354feef8c1f51e03bac6ef3",
+      "css": "lifebuoy",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "26eb5e234f87bad251fdd8e285b6fae7",
+      "css": "product",
+      "code": 62088,
+      "src": "fontawesome"
+    }
+  ]
+}
